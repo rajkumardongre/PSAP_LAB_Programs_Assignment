@@ -7,10 +7,10 @@
 //     double c;
 //     char d;
 
-//     printf("%d\n",sizeof(a));
-//     printf("%d\n",sizeof(b));
-//     printf("%d\n",sizeof(c));
-//     printf("%d\n",sizeof(d));
+//     printf("Integer Size    : %d\n",sizeof(a));
+//     printf("Float Size      : %d\n",sizeof(b));
+//     printf("Double Size     : %d\n",sizeof(c));
+//     printf("Character Size  : %d\n",sizeof(d));
 
 //    return 0;
 // }

@@ -91,18 +91,18 @@
 
 // 2. Calculate average of given numbers using call by value method.
 
-// #include <stdio.h>
+#include <stdio.h>
 
-// int findAvg(float n1, float n2, float n3){
-//     return (n1+n2+n3)/3;
-// }
+int findAvg(float n1, float n2, float n3){
+    return (n1+n2+n3)/3;
+}
 
-// int main(){
-//     float n1,n2,n3;
-//     printf("Enter 3 Numbers : ");
-//     scanf("%f %f %f", &n1, &n2, &n3);
-//     float avg = findAvg(n1, n2, n3);
-//     printf("Average of given 3 numbers is : %f", avg);
+int main(){
+    float n1,n2,n3;
+    printf("Enter 3 Numbers : ");
+    scanf("%f %f %f", &n1, &n2, &n3);
+    float avg = findAvg(n1, n2, n3);
+    printf("Average of given 3 numbers is : %f", avg);
 
-//     return 0;
-// }
+    return 0;
+}

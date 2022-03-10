@@ -42,7 +42,9 @@
 //     char str1[10]="BAT";
 //     char str2[10]="MAN";
 //     strcat(str1,str2);
-//     printf("%s",str1);
+//     printf("Concanated String is '%s'",str1);
+
+//     return 0;
 // }
 
 // Program to compare 2 string
@@ -54,7 +56,7 @@
 // {
 
 //     char str2[10]="abc";
-//     char str1[10]="cba";
+//     char str1[10]="abcd";
 //     int r = strcmp(str1,str2);
 //     if(r==0)printf("both string are same");
 //     else if(r>0)printf("%s is greater than %s",str1,str2);
@@ -125,6 +127,8 @@
 //     }
 //     s1[j] = '\0';
 //     printf("Addition of String is '%s'", s1);
+
+//     return 0;
 // }
 
 // Program to compare 2 string without strcmp()
@@ -145,7 +149,7 @@
 //         i++;
 //     }
 //     (isDiff ) ? printf("Strings are Different") : printf("Strings are Same");
-// 
+
 //     return 0;
 // }
 
