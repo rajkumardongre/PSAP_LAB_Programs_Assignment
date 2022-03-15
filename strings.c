@@ -67,15 +67,15 @@
 
 // Program to Reverse the String with strrev()
 
-// #include <stdio.h>
-// #include <string.h>
+#include <stdio.h>
+#include <string.h>
 
-// int main(){
-//     char s[10] = "Hello";
-//     printf("Reverse is %s",strrev(s));
+int main(){
+    char s[10] = "Hello";
+    printf("Reverse is %s",strrev(s));
 
-//     return 0;
-// }
+    return 0;
+}
 
 // ------------------------------------------------------
 // B. Implement following operations on strings without using library functions
